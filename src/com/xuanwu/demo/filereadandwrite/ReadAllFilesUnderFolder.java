@@ -11,7 +11,7 @@ import java.io.File;
 public class ReadAllFilesUnderFolder {
 	public static void main(String[] args) {
 		readFiles("C:\\Users\\Administrator\\Desktop\\ss");
-		deleteFiles("C:\\Users\\Administrator\\Desktop\\ss1");
+//		deleteFiles("C:\\Users\\Administrator\\Desktop\\ss1");
 	}
 	
 	/**
