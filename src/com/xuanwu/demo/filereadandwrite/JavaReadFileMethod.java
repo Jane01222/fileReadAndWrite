@@ -11,7 +11,7 @@ import java.io.RandomAccessFile;
 import java.io.Reader;
 
 /**
- * @Description 总结归纳Java文件读取的集中方式：
+ * @Description 总结归纳Java文件读取的几种方式：
  * 		1.按字节读取：以字节为单位读取文件，常用于读二进制文件，如图片、声音、影像等文件。
  * 		2.按字符读取：以字符为单位读取文件，常用于读文本，数字等类型的文件
  * 		3.按行读取：    以行为单位读取文件，常用于读面向行的格式化文件
@@ -22,9 +22,9 @@ import java.io.Reader;
  */
 public class JavaReadFileMethod{
 	public static void main(String[] args) {
-//		readFileByBytes("C:\\Users\\Administrator\\Desktop\\ss1\\statistics-config.json");
-//		readFileByChars("C:\\Users\\Administrator\\Desktop\\ss1\\statistics-config.json");
-//		readFileByLines("C:\\Users\\Administrator\\Desktop\\ss1\\statistics-config.json");
+		readFileByBytes("C:\\Users\\Administrator\\Desktop\\ss1\\statistics-config.json");
+		readFileByChars("C:\\Users\\Administrator\\Desktop\\ss1\\statistics-config.json");
+		readFileByLines("C:\\Users\\Administrator\\Desktop\\ss1\\statistics-config.json");
 		readFileByRandomAccess("C:\\Users\\Administrator\\Desktop\\ss1\\statistics-config.json");
 	}
 	
